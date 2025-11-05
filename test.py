@@ -18,6 +18,10 @@ def primes_up_to(limit: int) -> list[int]:
 def greet(name,last_name):
     """Return a simple greeting."""
     return f"Hello, {name},{last_name}!"
+
+def test_greet():
+    assert greet("Alice","Johnson") == "Hello, Alice,Johnson!"
+    assert greet("Bob","Brown") == "Hello, Bob,Brown!"
     
 
 if __name__ == "__main__":
